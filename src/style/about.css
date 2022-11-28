@@ -1,0 +1,9 @@
+.AboutBack{
+    text-decoration: none;
+    color: #000000;
+}
+
+.AboutBack:hover{
+    color: #FF0000;
+    cursor: pointer;
+} 

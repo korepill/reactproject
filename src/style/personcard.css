@@ -1,0 +1,86 @@
+.ShortCard:hover {
+    filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.4));
+}
+
+.LongCard:hover {
+    filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.4));
+}
+
+.Icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00A3FF;
+}
+
+.Plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.AddIcon{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+    width: 40px;
+    height: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.AddedIcon{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+    width: 40px;
+    height: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.AddIcon:hover .Icon{
+    background-color:#008BDA;
+}
+
+.ShortCard:hover .AddIcon{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+}
+
+.ShortCard:hover .AddedIcon{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+}
+
+.LocalCard:hover .AddedIcon{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+}
+
+.LongCard:hover .AddIcon{
+    position: absolute;
+    right:-20px;
+    top:-20px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.myInp{
+    width: 320px;
+    height: 36px;
+    background: rgba(162, 162, 162, 0.1);
+    border: 1px solid rgba(162, 162, 162, 0.6);
+    border-radius: 5px;
+    padding: 0px;
+    padding-left: 11px;
+    margin: 0px 19px 35px 20px;
+}
+
+.myInp:hover{
+    border: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.myInp:focus{
+    outline: 1px solid #00A3FF;
+    border: 1px solid #00A3FF;
+}

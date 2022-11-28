@@ -1,0 +1,83 @@
+.LogContent{
+    box-sizing: border-box;
+    width: 370px;
+    height: 445px;
+    background: #FFFFFF;
+    border: 1px dashed rgba(162, 162, 162, 0.6);
+    box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: absolute;
+    top: 210px;
+    left: 40.5%;
+}
+
+
+.Form__log{
+    width: 130px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin: 34px auto 54px;
+}
+
+.Log__Button{
+    width: 123.57px;
+    height: 49.28px;
+    padding: 0px;
+    margin: 0px 122px 35px 124px;
+    background: #000000;
+    border-radius: 5px;
+    border: 0;
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Log__Button:hover{
+    background: #1F4766    
+}
+
+.Open{
+    display:none;
+}
+
+.Open.active{
+    display: block;
+}
+
+.Close{
+    display: none;
+}
+
+.Close.active{
+    display: block;
+}
+
+.NoEmail{
+    color:red;
+    position: absolute;
+    top: 188px;
+    left: 35px;
+    display: none;
+}
+
+.NoEmail.active{
+    display:block
+}
+
+.NoPassword{
+    color:red;
+    position: absolute;
+    top: 263px;
+    left: 35px;
+    display: none;
+}
+
+.NoPassword.active{
+    display: block;
+}

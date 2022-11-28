@@ -1,0 +1,24 @@
+div{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Card__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.Card__description
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.Card__hover:hover{
+    filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.4));
+    cursor: pointer;
+}

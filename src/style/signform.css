@@ -1,0 +1,132 @@
+.Form__sign{
+    margin: 30px 63px 40px 60px;
+}
+
+
+.Sing__button{
+    width: 236px;
+    height: 49px;
+    background: #000000;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 13px 66px 30px 68px;
+    border: 0;
+    
+}
+
+.SingContent{
+    position: absolute;
+    top: 170px;
+    left: 40.5%;
+    box-sizing: border-box;
+    width: 370px;
+    height: 637px;
+    background: #FFFFFF;
+    border: 1px dashed rgba(162, 162, 162, 0.6);
+    box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.Form{
+    position: relative;
+}
+
+.GreenRick{
+    position: absolute;
+    top: 8%;
+    left: -73%;
+}
+
+.Open{
+    display:none;
+}
+
+.Open.active{
+    display: block;
+}
+
+.Close{
+    display: none;
+}
+
+.Close.active{
+    display: block;
+}
+
+.SignPassword{
+    position: absolute;
+    color:red;
+    top:55%;
+    left: 7%;
+    display: none;
+}
+
+.SignPassword.active{
+    display: block;
+}
+
+.RepetPassword{
+    position: absolute;
+    color: red;
+    top: 55%;
+    left: 7%; 
+    display: none;
+}
+
+.RepetPassword.active{
+    display: block;
+} 
+
+.SingName{
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    color: red;
+    display: none;
+}
+
+.SingName.active{
+    display: block;
+}
+
+.SingLastName{
+    position: absolute;
+    top: 55.5%;
+    left: 7%;
+    color: red;
+    display: none;
+}
+
+.SingLastName.active{
+    display: block;
+}
+
+.SingEmail{
+    position: absolute;
+    top: 55.5%;
+    left: 7%;
+    color: red;
+    display: none;
+}
+
+.SingEmail.active{
+    display: block;
+}
+
+.SingLogin{
+    position: absolute;
+    top: 55.5%;
+    left: 7%;
+    color: red;
+    display: none;
+}
+
+.SingLogin.active{
+    display: block;
+}

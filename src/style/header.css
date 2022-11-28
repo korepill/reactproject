@@ -1,0 +1,99 @@
+.NavFavorites{
+    display: none;
+}
+
+.NavFavorites.active{
+    display: block;
+}
+
+.header{
+    width: 1170px;
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 90px auto;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#N1{
+    margin-right: 28px;
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+}
+
+.SignButton{
+    box-sizing: border-box;
+    width: 188px;
+    height: 49px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.LogButton{
+    width: 123.57px;
+    height: 49.28px;
+    border-radius: 5px;
+    background: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.LogButton:hover{
+    background: #1F4766
+;}
+
+.Registration{
+    display: flex;
+    align-items: center;
+}
+
+.NoRegistration{
+    display: none;
+}
+
+.LogOutButton{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 123.57px;
+    height: 49.28px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.LogOutButton:hover{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#N1:hover{
+    color: #FF0000;
+    cursor: pointer;
+} 
+
+#N1.active{
+    color: #FF0000;
+} 
+
+#N1.active::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    margin-top: 8.5px;
+    position: absolute;
+    top:100%;
+    left: 0; 
+    z-index: 1;
+    background-color: #FF0000;
+    display: block;
+} 
+
